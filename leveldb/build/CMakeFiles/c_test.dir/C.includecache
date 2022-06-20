@@ -18,9 +18,9 @@ leveldb/export.h
 
 ../include/leveldb/export.h
 
-/mnt/c/Users/ykh/Github/leveldb/db/c_test.c
+/mnt/c/Users/78102/yRead/leveldb/db/c_test.c
 leveldb/c.h
-/mnt/c/Users/ykh/Github/leveldb/db/leveldb/c.h
+/mnt/c/Users/78102/yRead/leveldb/db/leveldb/c.h
 stddef.h
 -
 stdio.h

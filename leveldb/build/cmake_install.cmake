@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/ykh/Github/leveldb
+# Install script for directory: /mnt/c/Users/78102/yRead/leveldb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,26 +43,26 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/ykh/Github/leveldb/build/libleveldb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/78102/yRead/leveldb/build/libleveldb.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leveldb" TYPE FILE FILES
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/c.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/cache.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/comparator.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/db.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/dumpfile.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/env.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/export.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/filter_policy.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/iterator.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/options.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/slice.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/status.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/table_builder.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/table.h"
-    "/mnt/c/Users/ykh/Github/leveldb/include/leveldb/write_batch.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/c.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/cache.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/comparator.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/db.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/dumpfile.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/env.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/export.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/filter_policy.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/iterator.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/options.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/slice.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/status.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/table_builder.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/table.h"
+    "/mnt/c/Users/78102/yRead/leveldb/include/leveldb/write_batch.h"
     )
 endif()
 
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake"
-         "/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+         "/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -79,23 +79,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES
-    "/mnt/c/Users/ykh/Github/leveldb/build/cmake/leveldbConfig.cmake"
-    "/mnt/c/Users/ykh/Github/leveldb/build/cmake/leveldbConfigVersion.cmake"
+    "/mnt/c/Users/78102/yRead/leveldb/build/cmake/leveldbConfig.cmake"
+    "/mnt/c/Users/78102/yRead/leveldb/build/cmake/leveldbConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/cmake_install.cmake")
-  include("/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/cmake_install.cmake")
+  include("/mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/cmake_install.cmake")
+  include("/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/cmake_install.cmake")
 
 endif()
 
@@ -107,5 +107,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/ykh/Github/leveldb/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/78102/yRead/leveldb/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

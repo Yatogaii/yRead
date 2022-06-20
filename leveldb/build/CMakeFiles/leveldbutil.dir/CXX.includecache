@@ -54,13 +54,13 @@ leveldb/export.h
 leveldb/slice.h
 ../include/leveldb/leveldb/slice.h
 
-/mnt/c/Users/ykh/Github/leveldb/db/leveldbutil.cc
+/mnt/c/Users/78102/yRead/leveldb/db/leveldbutil.cc
 cstdio
 -
 leveldb/dumpfile.h
-/mnt/c/Users/ykh/Github/leveldb/db/leveldb/dumpfile.h
+/mnt/c/Users/78102/yRead/leveldb/db/leveldb/dumpfile.h
 leveldb/env.h
-/mnt/c/Users/ykh/Github/leveldb/db/leveldb/env.h
+/mnt/c/Users/78102/yRead/leveldb/db/leveldb/env.h
 leveldb/status.h
-/mnt/c/Users/ykh/Github/leveldb/db/leveldb/status.h
+/mnt/c/Users/78102/yRead/leveldb/db/leveldb/status.h
 

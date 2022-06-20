@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/ykh/Github/leveldb/third_party/googletest
+# Install script for directory: /mnt/c/Users/78102/yRead/leveldb/third_party/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googlemock/cmake_install.cmake")
+  include("/mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

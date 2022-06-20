@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/ykh/Github/leveldb/third_party/benchmark/src
+# Install script for directory: /mnt/c/Users/78102/yRead/leveldb/third_party/benchmark/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,33 +43,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/libbenchmark.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/libbenchmark.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/libbenchmark_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/libbenchmark_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/ykh/Github/leveldb/third_party/benchmark/include/benchmark" FILES_MATCHING REGEX "/[^/]*\\.[^/]*h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/78102/yRead/leveldb/third_party/benchmark/include/benchmark" FILES_MATCHING REGEX "/[^/]*\\.[^/]*h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark" TYPE FILE FILES
-    "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/generated/benchmarkConfig.cmake"
-    "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/generated/benchmarkConfigVersion.cmake"
+    "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/generated/benchmarkConfig.cmake"
+    "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/generated/benchmarkConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/generated/benchmark.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/generated/benchmark.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark/benchmarkTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark/benchmarkTargets.cmake"
-         "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets.cmake")
+         "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark/benchmarkTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -78,9 +78,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark" TYPE FILE FILES "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark" TYPE FILE FILES "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark" TYPE FILE FILES "/mnt/c/Users/ykh/Github/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/benchmark" TYPE FILE FILES "/mnt/c/Users/78102/yRead/leveldb/build/third_party/benchmark/src/CMakeFiles/Export/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake")
   endif()
 endif()
 

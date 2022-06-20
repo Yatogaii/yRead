@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/ykh/Github/leveldb/build/include -I/mnt/c/Users/ykh/Github/leveldb/. -I/mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest/include -I/mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest
+CXX_INCLUDES = -I/mnt/c/Users/78102/yRead/leveldb/build/include -I/mnt/c/Users/78102/yRead/leveldb/. -I/mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest/include -I/mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest
 
 CXX_FLAGS =  -fno-exceptions -fno-rtti -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-missing-field-initializers -std=c++11
 

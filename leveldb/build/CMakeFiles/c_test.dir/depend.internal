@@ -4,7 +4,7 @@
 CMakeFiles/c_test.dir/db/c_test.c.o
  ../include/leveldb/c.h
  ../include/leveldb/export.h
- /mnt/c/Users/ykh/Github/leveldb/db/c_test.c
+ /mnt/c/Users/78102/yRead/leveldb/db/c_test.c
 CMakeFiles/c_test.dir/util/testutil.cc.o
  ../helpers/memenv/memenv.h
  ../include/leveldb/env.h
@@ -48,4 +48,4 @@ CMakeFiles/c_test.dir/util/testutil.cc.o
  ../third_party/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../util/random.h
  ../util/testutil.h
- /mnt/c/Users/ykh/Github/leveldb/util/testutil.cc
+ /mnt/c/Users/78102/yRead/leveldb/util/testutil.cc

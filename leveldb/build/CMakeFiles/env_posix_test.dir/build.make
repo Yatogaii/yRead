@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/ykh/Github/leveldb
+CMAKE_SOURCE_DIR = /mnt/c/Users/78102/yRead/leveldb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/ykh/Github/leveldb/build
+CMAKE_BINARY_DIR = /mnt/c/Users/78102/yRead/leveldb/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/env_posix_test.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/env_posix_test.dir/flags.make
 
 CMakeFiles/env_posix_test.dir/util/testutil.cc.o: CMakeFiles/env_posix_test.dir/flags.make
 CMakeFiles/env_posix_test.dir/util/testutil.cc.o: ../util/testutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/env_posix_test.dir/util/testutil.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /mnt/c/Users/ykh/Github/leveldb/util/testutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/env_posix_test.dir/util/testutil.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /mnt/c/Users/78102/yRead/leveldb/util/testutil.cc
 
 CMakeFiles/env_posix_test.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/env_posix_test.dir/util/testutil.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ykh/Github/leveldb/util/testutil.cc > CMakeFiles/env_posix_test.dir/util/testutil.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/78102/yRead/leveldb/util/testutil.cc > CMakeFiles/env_posix_test.dir/util/testutil.cc.i
 
 CMakeFiles/env_posix_test.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/env_posix_test.dir/util/testutil.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ykh/Github/leveldb/util/testutil.cc -o CMakeFiles/env_posix_test.dir/util/testutil.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/78102/yRead/leveldb/util/testutil.cc -o CMakeFiles/env_posix_test.dir/util/testutil.cc.s
 
 CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o: CMakeFiles/env_posix_test.dir/flags.make
 CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o: ../util/env_posix_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /mnt/c/Users/ykh/Github/leveldb/util/env_posix_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /mnt/c/Users/78102/yRead/leveldb/util/env_posix_test.cc
 
 CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ykh/Github/leveldb/util/env_posix_test.cc > CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/78102/yRead/leveldb/util/env_posix_test.cc > CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i
 
 CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ykh/Github/leveldb/util/env_posix_test.cc -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/78102/yRead/leveldb/util/env_posix_test.cc -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s
 
 # Object files for target env_posix_test
 env_posix_test_OBJECTS = \
@@ -117,7 +117,7 @@ env_posix_test: libleveldb.a
 env_posix_test: lib/libgmock.a
 env_posix_test: lib/libgtest.a
 env_posix_test: CMakeFiles/env_posix_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable env_posix_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable env_posix_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/env_posix_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +130,6 @@ CMakeFiles/env_posix_test.dir/clean:
 .PHONY : CMakeFiles/env_posix_test.dir/clean
 
 CMakeFiles/env_posix_test.dir/depend:
-	cd /mnt/c/Users/ykh/Github/leveldb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/ykh/Github/leveldb /mnt/c/Users/ykh/Github/leveldb /mnt/c/Users/ykh/Github/leveldb/build /mnt/c/Users/ykh/Github/leveldb/build /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/env_posix_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/78102/yRead/leveldb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/78102/yRead/leveldb /mnt/c/Users/78102/yRead/leveldb /mnt/c/Users/78102/yRead/leveldb/build /mnt/c/Users/78102/yRead/leveldb/build /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/env_posix_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/env_posix_test.dir/depend
 

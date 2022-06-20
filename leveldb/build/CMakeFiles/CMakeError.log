@@ -1,46 +1,46 @@
 Determining if the function crc32c_value exists in the crc32c failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_9dbfe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9dbfe.dir/build.make CMakeFiles/cmTC_9dbfe.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9dbfe.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c11 -o CMakeFiles/cmTC_9dbfe.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9dbfe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbfe.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_9dbfe.dir/CheckFunctionExists.c.o -o cmTC_9dbfe  -lcrc32c 
+Run Build Command(s):/usr/bin/gmake cmTC_b7b45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7b45.dir/build.make CMakeFiles/cmTC_b7b45.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7b45.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c11 -o CMakeFiles/cmTC_b7b45.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7b45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b45.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_b7b45.dir/CheckFunctionExists.c.o -o cmTC_b7b45  -lcrc32c 
 /usr/bin/ld: cannot find -lcrc32c
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_9dbfe.dir/build.make:106: cmTC_9dbfe] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_9dbfe/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_b7b45.dir/build.make:106: cmTC_b7b45] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b7b45/fast] Error 2
 
 
 
 Determining if the function snappy_compress exists in the snappy failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_a5adb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5adb.dir/build.make CMakeFiles/cmTC_a5adb.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5adb.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -std=c11 -o CMakeFiles/cmTC_a5adb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a5adb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5adb.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress CMakeFiles/cmTC_a5adb.dir/CheckFunctionExists.c.o -o cmTC_a5adb  -lsnappy 
+Run Build Command(s):/usr/bin/gmake cmTC_44542/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_44542.dir/build.make CMakeFiles/cmTC_44542.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44542.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -std=c11 -o CMakeFiles/cmTC_44542.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44542.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress CMakeFiles/cmTC_44542.dir/CheckFunctionExists.c.o -o cmTC_44542  -lsnappy 
 /usr/bin/ld: cannot find -lsnappy
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_a5adb.dir/build.make:106: cmTC_a5adb] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_a5adb/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_44542.dir/build.make:106: cmTC_44542] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_44542/fast] Error 2
 
 
 
 Determining if the function malloc exists in the tcmalloc failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_d3bb1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3bb1.dir/build.make CMakeFiles/cmTC_d3bb1.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d3bb1.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -std=c11 -o CMakeFiles/cmTC_d3bb1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Run Build Command(s):/usr/bin/gmake cmTC_3ee8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ee8b.dir/build.make CMakeFiles/cmTC_3ee8b.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ee8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -std=c11 -o CMakeFiles/cmTC_3ee8b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
     7 |   CHECK_FUNCTION_EXISTS(void);
@@ -48,34 +48,34 @@ Building C object CMakeFiles/cmTC_d3bb1.dir/CheckFunctionExists.c.o
 /usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
   +++ |+#include <stdlib.h>
     1 | #ifdef CHECK_FUNCTION_EXISTS
-Linking C executable cmTC_d3bb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3bb1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_d3bb1.dir/CheckFunctionExists.c.o -o cmTC_d3bb1  -ltcmalloc 
+Linking C executable cmTC_3ee8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ee8b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_3ee8b.dir/CheckFunctionExists.c.o -o cmTC_3ee8b  -ltcmalloc 
 /usr/bin/ld: cannot find -ltcmalloc
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_d3bb1.dir/build.make:106: cmTC_d3bb1] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_d3bb1/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_3ee8b.dir/build.make:106: cmTC_3ee8b] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3ee8b/fast] Error 2
 
 
 
 Determining if the F_FULLFSYNC exist failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_57e26/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57e26.dir/build.make CMakeFiles/cmTC_57e26.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_57e26.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -std=c++11 -o CMakeFiles/cmTC_57e26.dir/CheckSymbolExists.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+Run Build Command(s):/usr/bin/gmake cmTC_40777/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40777.dir/build.make CMakeFiles/cmTC_40777.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40777.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -std=c++11 -o CMakeFiles/cmTC_40777.dir/CheckSymbolExists.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
     8 |   return ((int*)(&F_FULLFSYNC))[argc];
       |                   ^~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_57e26.dir/build.make:85: CMakeFiles/cmTC_57e26.dir/CheckSymbolExists.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_57e26/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_40777.dir/build.make:85: CMakeFiles/cmTC_40777.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_40777/fast] Error 2
 
 
-File /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <fcntl.h>
 
@@ -90,39 +90,39 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_32012/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32012.dir/build.make CMakeFiles/cmTC_32012.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_32012.dir/src.cxx.o
-/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CLANG_THREAD_SAFETY   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_32012.dir/src.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/gmake cmTC_a674f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a674f.dir/build.make CMakeFiles/cmTC_a674f.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a674f.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CLANG_THREAD_SAFETY   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_a674f.dir/src.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wthread-safety'
-gmake[1]: *** [CMakeFiles/cmTC_32012.dir/build.make:85: CMakeFiles/cmTC_32012.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_32012/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_a674f.dir/build.make:85: CMakeFiles/cmTC_a674f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a674f/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_4c3e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c3e1.dir/build.make CMakeFiles/cmTC_4c3e1.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c3e1.dir/src.c.o
-/usr/bin/cc   -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD -std=c11 -o CMakeFiles/cmTC_4c3e1.dir/src.c.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_4c3e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c3e1.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_4c3e1.dir/src.c.o -o cmTC_4c3e1 
-/usr/bin/ld: CMakeFiles/cmTC_4c3e1.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/gmake cmTC_32def/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32def.dir/build.make CMakeFiles/cmTC_32def.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32def.dir/src.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD -std=c11 -o CMakeFiles/cmTC_32def.dir/src.c.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_32def
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32def.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_32def.dir/src.c.o -o cmTC_32def 
+/usr/bin/ld: CMakeFiles/cmTC_32def.dir/src.c.o: in function `main':
 src.c:(.text+0x2f): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_4c3e1.dir/build.make:106: cmTC_4c3e1] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_4c3e1/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_32def.dir/build.make:106: cmTC_32def] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_32def/fast] Error 2
 
 
 Source file was:
@@ -147,103 +147,103 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_0d786/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d786.dir/build.make CMakeFiles/cmTC_0d786.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0d786.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create -std=c11 -o CMakeFiles/cmTC_0d786.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0d786
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d786.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0d786.dir/CheckFunctionExists.c.o -o cmTC_0d786  -lpthreads 
+Run Build Command(s):/usr/bin/gmake cmTC_a6eb8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6eb8.dir/build.make CMakeFiles/cmTC_a6eb8.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6eb8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create -std=c11 -o CMakeFiles/cmTC_a6eb8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6eb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6eb8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_a6eb8.dir/CheckFunctionExists.c.o -o cmTC_a6eb8  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_0d786.dir/build.make:106: cmTC_0d786] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_0d786/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_a6eb8.dir/build.make:106: cmTC_a6eb8] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a6eb8/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_c0992/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0992.dir/build.make CMakeFiles/cmTC_c0992.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0992.dir/src.cxx.o
-/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_c0992.dir/src.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/gmake cmTC_30391/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30391.dir/build.make CMakeFiles/cmTC_30391.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30391.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_30391.dir/src.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wshorten-64-to-32'
 c++: error: unrecognized command-line option '-Wshorten-64-to-32'
-gmake[1]: *** [CMakeFiles/cmTC_c0992.dir/build.make:85: CMakeFiles/cmTC_c0992.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_c0992/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_30391.dir/build.make:85: CMakeFiles/cmTC_30391.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_30391/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_278f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_278f1.dir/build.make CMakeFiles/cmTC_278f1.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_278f1.dir/src.cxx.o
-/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_278f1.dir/src.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/gmake cmTC_58fde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58fde.dir/build.make CMakeFiles/cmTC_58fde.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58fde.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_58fde.dir/src.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-wd654'
 c++: error: unrecognized command-line option '-wd654'
-gmake[1]: *** [CMakeFiles/cmTC_278f1.dir/build.make:85: CMakeFiles/cmTC_278f1.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_278f1/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_58fde.dir/build.make:85: CMakeFiles/cmTC_58fde.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_58fde/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_fbf9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbf9f.dir/build.make CMakeFiles/cmTC_fbf9f.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fbf9f.dir/src.cxx.o
-/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_fbf9f.dir/src.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/gmake cmTC_7f6fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f6fc.dir/build.make CMakeFiles/cmTC_7f6fc.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f6fc.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_7f6fc.dir/src.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wthread-safety'
 c++: error: unrecognized command-line option '-Wthread-safety'
-gmake[1]: *** [CMakeFiles/cmTC_fbf9f.dir/build.make:85: CMakeFiles/cmTC_fbf9f.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_fbf9f/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_7f6fc.dir/build.make:85: CMakeFiles/cmTC_7f6fc.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_7f6fc/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_2ea98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ea98.dir/build.make CMakeFiles/cmTC_2ea98.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2ea98.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -std=c11 -o CMakeFiles/cmTC_2ea98.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2ea98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea98.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open CMakeFiles/cmTC_2ea98.dir/CheckFunctionExists.c.o -o cmTC_2ea98  -lsqlite3 
+Run Build Command(s):/usr/bin/gmake cmTC_ed729/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed729.dir/build.make CMakeFiles/cmTC_ed729.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed729.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -std=c11 -o CMakeFiles/cmTC_ed729.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed729.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open CMakeFiles/cmTC_ed729.dir/CheckFunctionExists.c.o -o cmTC_ed729  -lsqlite3 
 /usr/bin/ld: cannot find -lsqlite3
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_2ea98.dir/build.make:106: cmTC_2ea98] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_2ea98/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_ed729.dir/build.make:106: cmTC_ed729] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ed729/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
-Change Dir: /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_c895b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c895b.dir/build.make CMakeFiles/cmTC_c895b.dir/build
-gmake[1]: Entering directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c895b.dir/src.cxx.o
-/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_KYOTOCABINET -std=c++11 -o CMakeFiles/cmTC_c895b.dir/src.cxx.o -c /mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
-/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
+Run Build Command(s):/usr/bin/gmake cmTC_619b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_619b0.dir/build.make CMakeFiles/cmTC_619b0.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_619b0.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_KYOTOCABINET -std=c++11 -o CMakeFiles/cmTC_619b0.dir/src.cxx.o -c /mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
     2 | #include <kcpolydb.h>
       |          ^~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_c895b.dir/build.make:85: CMakeFiles/cmTC_c895b.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_c895b/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_619b0.dir/build.make:85: CMakeFiles/cmTC_619b0.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_619b0/fast] Error 2
 
 
 Source file was:

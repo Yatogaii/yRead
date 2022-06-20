@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/ykh/Github/leveldb
+CMAKE_SOURCE_DIR = /mnt/c/Users/78102/yRead/leveldb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/ykh/Github/leveldb/build
+CMAKE_BINARY_DIR = /mnt/c/Users/78102/yRead/leveldb/build
 
 # Include any dependencies generated for this target.
 include third_party/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -78,16 +78,16 @@ include third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../third_party/googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest/src/gtest_main.cc
 
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -99,9 +99,9 @@ gtest_main_EXTERNAL_OBJECTS =
 lib/libgtest_main.a: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 lib/libgtest_main.a: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
 lib/libgtest_main.a: third_party/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/ykh/Github/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_main.a"
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/78102/yRead/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_main.a"
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_main.a
@@ -109,10 +109,10 @@ third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
 
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 third_party/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /mnt/c/Users/ykh/Github/leveldb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/ykh/Github/leveldb /mnt/c/Users/ykh/Github/leveldb/third_party/googletest/googletest /mnt/c/Users/ykh/Github/leveldb/build /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest /mnt/c/Users/ykh/Github/leveldb/build/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/78102/yRead/leveldb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/78102/yRead/leveldb /mnt/c/Users/78102/yRead/leveldb/third_party/googletest/googletest /mnt/c/Users/78102/yRead/leveldb/build /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest /mnt/c/Users/78102/yRead/leveldb/build/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third_party/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 
