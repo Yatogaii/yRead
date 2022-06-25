@@ -31,6 +31,7 @@ class SCOPED_LOCKABLE MutexLock {
   MutexLock& operator=(const MutexLock&) = delete;
 
  private:
+  // const 变量必须在列表初始化里初始
   port::Mutex* const mu_;
 };
 
